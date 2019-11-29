@@ -1,6 +1,6 @@
-this is branch of todo list
+this is branch of todo list using html, bootstrap, vanilla javascript
 
-NO banckend technology is used
+NO backend technology is used
 
 caching or local storge of js is not used
 
