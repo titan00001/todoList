@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>to do list v~0</title>
+</head>
+<body>
+    <h1>To do list v~0</h1>
+
+    <h2>home</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+
+                <!-- add dropdown menu to each of following -->
+                <div>Pending list</div>
+                <div>Partially completed</div>
+                <div>Favourite list</div>
+                <div>Recommended list</div>
+                
+            </div>
+            
+            <div class="col-sm">
+
+                <!-- display all items in list -->
+                <div class="item"><p>potato 3kg </p>
+                    <button class="itemRemove">remove</button></div>
+
+                <div class="item"><p>tomato 500gm </p>
+                    <button class="itemRemove">remove</button></div>
+
+                <div class="item"><p>surf excel 200gm </p>
+                    <button class="itemRemove">remove</button></div>
+
+                <!-- form to add items in the list -->
+                <div>
+                    
+                    <input type="text" name="itemInput" id="inputItem">
+                    <button type="submit" onclick="addItem()">add</button>
+                
+                </div>
+
+                <!-- command buttons -->
+                <div>
+                    <button>save</button>
+                    <button>Act now</button>
+                    <button>clear all</button>
+                </div>
+
+            </div>
+        
+        </div>
+
+    </div>
+
+    <script src="addItem.js"></script>
+</body>
+</html>
